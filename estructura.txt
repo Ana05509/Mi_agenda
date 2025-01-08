@@ -1,0 +1,27 @@
+Mi_agenda/
+├── controllers/                   # Controladores: manejan la lógica de la aplicación.
+│   ├── __pycache__/               # Caché de Python (se genera automáticamente).
+│   ├── event_controller.py        # Controlador que gestiona la lógica de los eventos (crear, editar, eliminar).
+
+├── database/                      # Módulo de conexión a la base de datos.
+│   ├── __pycache__/               # Caché de Python.
+│   ├── connection.py              # Maneja la conexión con la base de datos (SQLite, MySQL, etc.).
+
+├── models/                        # Modelos: definen las estructuras de datos.
+│   ├── __pycache__/               # Caché de Python.
+│   ├── event_model.py             # Modelo de datos para los eventos (campos como título, fecha, etc.).
+
+├── ui/                            # Interfaz de usuario: gestiona el diseño y la interacción visual.
+│   ├── __pycache__/               # Caché de Python.
+│   ├── __init__.py                # Marca la carpeta `ui` como un paquete Python.
+│   ├── add_event_dialog.py        # Ventana emergente para añadir eventos al calendario.
+│   ├── calendar_grid.py           # Componente visual para mostrar el calendario (grilla de fechas).
+│   ├── main_frame.py              # Ventana principal de la aplicación, donde se integra todo.
+
+├── venv/                          # Entorno virtual de Python (dependencias específicas del proyecto).
+
+├── .gitattributes                 # Configuraciones específicas para Git (p. ej., manejo de finales de línea).
+├── estructura.txt                 # Archivo con la estructura del proyecto.
+├── main.py                        # Archivo principal: inicia la aplicación y configura el flujo principal.
+├── README.md                      # Descripción del proyecto, cómo usarlo, instalarlo, etc.
+├── requirements.txt               # Lista de dependencias requeridas para ejecutar el proyecto.
